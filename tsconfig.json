@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": ".",           // Use current folder as root
+    "strict": true,
+    "esModuleInterop": true   // Optional: helps with Node.js-style imports
+  },
+  "include": ["*.ts"]         // Include all .ts files in root
+}

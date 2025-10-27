@@ -1,0 +1,13 @@
+{
+  "name": "pseudojs",
+  "version": "0.1.0",
+  "description": "Parser and tooling for PseudoJS (.jps) files",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
